@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Praktikum Layout Flutter')),
-      body:Row(
+      body:Column(
 mainAxisAlignment: MainAxisAlignment.center,
 children: <Widget>[
 Container(color: Colors.red, height: 100, width: 100),
